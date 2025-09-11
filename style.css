@@ -434,7 +434,6 @@ nav .fas {
 
 .modal-inner iframe {
     width: 1000px;
-    min-width: 600px;
     height: 700px;
     border: none;
 }
@@ -542,4 +541,5 @@ nav .fas {
     }
 
 }
+
 
