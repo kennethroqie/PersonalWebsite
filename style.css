@@ -414,7 +414,7 @@ nav .fas {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 200vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
     justify-content: center;
@@ -539,4 +539,5 @@ nav .fas {
         display: block;
         margin: 25px;
     }
+
 }
