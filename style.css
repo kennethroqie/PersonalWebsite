@@ -414,7 +414,7 @@ nav .fas {
     position: fixed;
     top: 0;
     left: 0;
-    width: 200vw;
+    width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
     justify-content: center;
@@ -434,6 +434,7 @@ nav .fas {
 
 .modal-inner iframe {
     width: 1000px;
+    min-width: 600px;
     height: 700px;
     border: none;
 }
@@ -541,3 +542,4 @@ nav .fas {
     }
 
 }
+
