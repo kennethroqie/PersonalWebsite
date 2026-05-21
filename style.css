@@ -281,6 +281,14 @@ width: 100%;
     height: 60px;
     border-radius: 50%;
     text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+/* Forces heading and paragraph text to stay white */
+.layer h2, 
+.layer p {
+    color: #ffffff !important;
 }
 
 .work:hover img {
