@@ -282,6 +282,24 @@ width: 100%;
     border-radius: 50%;
 }
 
+/* ========== CLICKABLE WORK CARD (No Inheritance) ========== */
+.work-link {
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Ensure image stays inside */
+.work-link .work {
+    overflow: hidden;
+}
+
+/* Remove pointer-events from layer content to let click pass through */
+.work-link .layer h2,
+.work-link .layer p {
+    pointer-events: none;
+}
 
 .work:hover img {
     transform: scale(1.1);
