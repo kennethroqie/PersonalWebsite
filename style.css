@@ -282,32 +282,23 @@ width: 100%;
     border-radius: 50%;
 }
 
-/* ========== PROJECT LINK (No Inheritance) ========== */
-.project-link {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 30px;
-    font-size: 16px;
-    font-weight: 600;
+/* ========== CLICKABLE WORK CARD (No Inheritance) ========== */
+.work-link {
     text-decoration: none;
-    color: #ffffff !important;          /* Force white text */
-    background-color: transparent;      /* No background */
-    border: 2px solid #ffffff;          /* White border */
-    border-radius: 25px;               /* Rounded corners */
-    transition: all 0.3s ease;         /* Smooth transition */
+    display: block;
+    border-radius: 10px;
     cursor: pointer;
 }
 
-/* Hover State */
-.project-link:hover {
-    color: #000000 !important;         /* Black text on hover */
-    background-color: #ffffff;         /* White background on hover */
-    transform: translateY(-3px);       /* Slight upward movement */
+/* Ensure image stays inside */
+.work-link .work {
+    overflow: hidden;
 }
 
-/* Active/Click State */
-.project-link:active {
-    transform: translateY(-1px);
+/* Remove pointer-events from layer content to let click pass through */
+.work-link .layer h2,
+.work-link .layer p {
+    pointer-events: none;
 }
 
 .work:hover img {
