@@ -282,12 +282,6 @@ width: 100%;
     border-radius: 50%;
 }
 
-/* Forces heading and paragraph text to stay white */
-.layer h2, 
-.layer p {
-    color: #ffffff !important;
-}
-
 .work:hover img {
     transform: scale(1.1);
 }
