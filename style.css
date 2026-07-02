@@ -159,10 +159,20 @@ nav ul li a:hover::after {
     margin-bottom: 25px;
 }
 
+.certification-item a{
+    display: inline-block;
+    transition: transform .3s ease;
+}
+
+.certification-item a:hover{
+    transform: scale(1.05);
+}
+
 .certification-item img{
     width: 100px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,.3);
+    cursor: pointer;
 }
 
 .certification-item div{
