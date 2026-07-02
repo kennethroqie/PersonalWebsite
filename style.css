@@ -151,6 +151,29 @@ nav ul li a:hover::after {
     transition: 0.5s;
 }
 
+/* ----------CERTIFICATION BADGE---------- */
+.cert-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #262626;
+    padding: 15px 20px;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.cert-item:hover {
+    background: #ff004f;
+    transform: translateY(-3px);
+}
+
+.cert-badge {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
 /* .tab-links:hover::after{
 width: 100%;
 } */
