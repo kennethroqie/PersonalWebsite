@@ -152,26 +152,28 @@ nav ul li a:hover::after {
 }
 
 /* ----------CERTIFICATION BADGE---------- */
-.cert-item {
+.certification-item{
     display: flex;
     align-items: center;
     gap: 20px;
-    background: #262626;
-    padding: 15px 20px;
+    margin-bottom: 25px;
+}
+
+.certification-item img{
+    width: 100px;
     border-radius: 10px;
-    transition: background 0.5s, transform 0.5s;
+    box-shadow: 0 4px 10px rgba(0,0,0,.3);
 }
 
-.cert-item:hover {
-    background: #ff004f;
-    transform: translateY(-3px);
+.certification-item div{
+    display: flex;
+    flex-direction: column;
 }
 
-.cert-badge {
-    width: 60px;
-    height: 60px;
-    flex-shrink: 0;
-    border-radius: 8px;
+.certification-item span{
+    color: #b54768;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 /* .tab-links:hover::after{
