@@ -537,6 +537,15 @@ nav .fas {
         margin: 25px;
     }
 
+    .certification-item{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .certification-item img{
+        width: 80px;
+    }
+
 }
 
 
