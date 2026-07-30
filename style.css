@@ -214,40 +214,67 @@ width: 100%;
     display: block;
 }
 
-/* --------------- Certificate for Tesda ------------- */
-/* Certificate Link */
-.certificate-link{
-    margin-top: 10px;
-}
+/* ---------- TESDA Certificate ---------- */
 
-.certificate-link a{
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 8px 14px;
+.certificate-button{
+    width: 100px;
+    height: 100px;
     background: #262626;
-    border: 1px solid #ff004f;
-    border-radius: 6px;
-    color: #fff;
+    border: 2px solid #ff004f;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
     transition: all .3s ease;
+    flex-shrink: 0;
 }
 
-.certificate-link a i{
+.certificate-button i{
+    font-size: 36px;
     color: #ff004f;
-    font-size: 16px;
+    margin-bottom: 8px;
+    transition: color .3s ease;
 }
 
-.certificate-link a:hover{
+.certificate-button span{
+    color: #fff !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.certificate-button:hover{
     background: #ff004f;
-    color: #fff;
-    transform: translateX(5px);
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,.3);
 }
 
-.certificate-link a:hover i{
+.certificate-button:hover i{
     color: #fff;
+}
+
+/* ---------- Mobile ---------- */
+
+@media only screen and (max-width:600px){
+
+    .certificate-button{
+        width: 80px;
+        height: 80px;
+    }
+
+    .certificate-button i{
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    .certificate-button span{
+        font-size: 10px !important;
+    }
 }
 /* ----------SERVICES---------- */
 #services {
