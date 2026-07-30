@@ -212,70 +212,40 @@ width: 100%;
 }
 
 /* --------------- Certificate for Tesda ------------- */
-.certificate-item {
-    list-style: none;
-    margin: 15px 0;
+/* Certificate Link */
+.certificate-link{
+    margin-top: 10px;
 }
 
-.certificate-card {
-    display: flex;
+.certificate-link a{
+    display: inline-flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 18px 22px;
-    background: #ffffff;
-    border: 1px solid #e5e7eb;
-    border-left: 5px solid #0078d4; /* Microsoft Blue */
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    gap: 8px;
+    padding: 8px 14px;
+    background: #262626;
+    border: 1px solid #ff004f;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
     transition: all .3s ease;
 }
 
-.certificate-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+.certificate-link a i{
+    color: #ff004f;
+    font-size: 16px;
 }
 
-.certificate-icon {
-    font-size: 2rem;
-}
-
-.certificate-info {
-    flex: 1;
-}
-
-.certificate-info h4 {
-    margin: 0;
-    font-size: 1.05rem;
-    color: #1f2937;
-}
-
-.certificate-info p {
-    margin: 5px 0;
-    color: #4b5563;
-    font-size: .95rem;
-}
-
-.certificate-info small {
-    color: #6b7280;
-}
-
-.certificate-btn {
-    text-decoration: none;
-    background: #0078d4;
+.certificate-link a:hover{
+    background: #ff004f;
     color: #fff;
-    padding: 10px 18px;
-    border-radius: 8px;
-    font-weight: 600;
-    transition: .3s;
-    white-space: nowrap;
+    transform: translateX(5px);
 }
 
-.certificate-btn:hover {
-    background: #005ea6;
-    transform: scale(1.05);
+.certificate-link a:hover i{
+    color: #fff;
 }
-
 /* ----------SERVICES---------- */
 #services {
     padding: 30px 0;
