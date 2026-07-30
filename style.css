@@ -185,6 +185,9 @@ nav ul li a:hover::after {
     font-size: 17px;
     font-weight: 600;
 }
+.certificate-link{
+    margin-bottom: 10px;
+}
 
 /* .tab-links:hover::after{
 width: 100%;
